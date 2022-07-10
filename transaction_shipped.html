@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="css/tailwind.purged.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>URIKAI</title>
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col overflow-hidden">
+      <header class="h-16 fixed z-40 bg-white top-0 w-full px-4 py-2 flex jusity-between items-center border-b border-gray-300 md:px-10">
+        <button class="flex  rounded-full w-10 h-10 md:hidden items-center justify-center hover:bg-gray-100 duration-200 trantision">
+          <svg class="w-8" width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.707 4.293a1 1 0 0 1 0 1.414L9.414 12l6.293 6.293a1 1 0 0 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 0 1 1.414 0Z" fill="currentColor"></path>
+          </svg>
+        </button>
+        <div class="flex items-center space-x-6 w-full md:w-auto  justify-center md:jusify-start"><a class="block flex items-centrer text-xl h-12 justify-center _mx-auto md:ml-0 " href="/">
+            <svg class="text-red-500 mr-1.5 w-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" xml:space="preserve">
+              <g>
+                <path d="M454.002,324.104V187.896c16.877-5.176,29.228-20.691,29.228-39.268c0-22.79-18.475-41.257-41.258-41.257            c-10.87,0-20.69,4.292-28.06,11.168L296.125,50.53c0.689-2.991,1.136-6.069,1.136-9.272C297.261,18.468,278.786,0,256.004,0            c-22.782,0-41.258,18.468-41.258,41.258c0,3.203,0.447,6.281,1.136,9.272L98.087,118.54c-7.37-6.876-17.191-11.168-28.062-11.168            c-22.782,0-41.256,18.467-41.256,41.257c0,18.576,12.351,34.091,29.227,39.268v136.208c-16.876,5.176-29.227,20.691-29.227,39.268            c0,22.79,18.474,41.257,41.256,41.257c10.879,0,20.692-4.292,28.062-11.168l117.787,68.01c-0.69,2.991-1.136,6.069-1.136,9.272            c0,22.79,18.475,41.258,41.257,41.258s41.257-18.468,41.257-41.258c0-3.203-0.446-6.288-1.136-9.28l117.788-68.002            c7.37,6.876,17.191,11.168,28.068,11.168c22.783,0,41.258-18.467,41.258-41.257C483.231,344.795,470.879,329.28,454.002,324.104z            M243.967,431.476c-6.054,1.856-11.52,4.965-16.031,9.178l-117.788-68.01c0.689-2.992,1.136-6.077,1.136-9.272            c0-18.576-12.351-34.091-29.228-39.268V187.896c6.054-1.856,11.521-4.965,16.032-9.178l117.787,68.009            c-0.69,2.992-1.136,6.07-1.136,9.273c0,18.576,12.35,34.091,29.228,39.268V431.476z M227.935,225.91l-117.788-68.009            c0.689-2.992,1.136-6.07,1.136-9.273c0-3.203-0.447-6.281-1.136-9.272l117.796-68.01c7.369,6.876,17.19,11.168,28.06,11.168            c10.87,0,20.691-4.292,28.061-11.168l117.787,68.01c-0.689,2.992-1.136,6.069-1.136,9.272c0,3.196,0.447,6.281,1.136,9.273            l-117.803,68.002c-7.37-6.869-17.182-11.16-28.053-11.16S235.305,219.034,227.935,225.91z M429.943,324.104            c-16.877,5.176-29.227,20.691-29.227,39.268c0,3.195,0.447,6.281,1.136,9.272l-117.795,68.01            c-4.519-4.214-9.978-7.323-16.031-9.178V295.268c16.877-5.177,29.227-20.692,29.227-39.268c0-3.203-0.446-6.281-1.136-9.273            l117.796-68.009c4.511,4.214,9.977,7.323,16.031,9.178V324.104z" fill="currentColor"></path>
+              </g>
+            </svg>
+            <div class="flex-0 h-full flex items-center">URIKAI</div></a>
+          <div class="w-full ml-2 relative w-64 hidden md:flex">
+            <input class="border border-gray-300 w-full bg-gray-100 h-10 px-5 pr-10 rounded text-sm border-gray-200 focus:outline-none" type="search" name="serch" placeholder="何をお探しですか？">
+            <button class="absolute right-0 top-0 mt-3 mr-4" type="submit">
+              <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="text-right justify-end md:flex-grow mt-5 mr-5 md:mt-0 md:mr-0 absolute top-0 right-0 md:static md:flex">
+          <!--SP用ヘッダーメニュー-->
+          <ul class="flex items-center space-x-4 text-sm flex md:hidden">
+            <li class="relative">
+              <button class="h-6 w-6 flex items-center justify-center rounded-full hover:bg-gray-100 duration-200">
+                <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                  <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"></path>
+                </svg>
+              </button>
+            </li>
+            <li class="relative"><span class="absolute top-0 right-0 bg-red-500 rounded-full text-white text-xs font-bold flex items-center justify-center h-4 py-0.5 px-1 min-w-[1rem] -mt-2 -mr-2">44</span>
+              <button class="h-6 w-6 flex items-center justify-center rounded-full hover:bg-gray-100 duration-200">
+                <svg class="w-4 h-4" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 59.1 (86144) - https://sketch.com-->
+                  <title>ic_fluent_checkmark_24_filled</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="ic_fluent_checkmark_24_filled" fill="currentColor" fill-rule="nonzero">
+                      <path d="M8.5,16.5857864 L4.70710678,12.7928932 C4.31658249,12.4023689 3.68341751,12.4023689 3.29289322,12.7928932 C2.90236893,13.1834175 2.90236893,13.8165825 3.29289322,14.2071068 L7.79289322,18.7071068 C8.18341751,19.0976311 8.81658249,19.0976311 9.20710678,18.7071068 L20.2071068,7.70710678 C20.5976311,7.31658249 20.5976311,6.68341751 20.2071068,6.29289322 C19.8165825,5.90236893 19.1834175,5.90236893 18.7928932,6.29289322 L8.5,16.5857864 Z" id="🎨-Color"></path>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <!--PC用ヘッダーメニュー-->
+          <ul class="flex items-center space-x-4 text-sm hidden md:flex">
+            <li><a class="relative hover:bg-gray-100 duration-200 rounded-lg px-2 py-2" href="#"><span class="absolute top-0 right-0 bg-red-500 rounded-full text-white text-xs font-bold flex items-center justify-center h-4 py-0.5 px-0.5 min-w-[1rem] -mt-2 -mr-2">99</span><span>お知らせ</span></a></li>
+            <li><a class="relative hover:bg-gray-100 duration-200 rounded-lg px-2 py-2" href="#"><span class="absolute top-0 right-0 bg-red-500 rounded-full text-white text-xs font-bold flex items-center justify-center h-4 py-0.5 px-0.5 min-w-[1rem] -mt-2 -mr-2">4</span><span>やることリスト</span></a></li>
+            <li><a class="relative hover:bg-gray-100 duration-200 rounded-lg px-2 py-2" href="#"><span>アカウント</span></a></li>
+            <li>
+              <button class="bg-red-500 font-bold text-white px-4 py-1 rounded text-base">出品</button>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="w-11/12 flex-1 max-w-screen-xl mx-auto bg-white mt-24 pb-24 md:px-8 xl:px-0" id="contents">
+        <div class="flex flex-col-reverse  md:space-y-0 md:flex-row ">
+          <div class="text-left w-full px-4 bg-white md:w-1/3 lg:w-1/3  mt-12 md:mt-0">
+            <h2 class="font-black mb-8 text-xl">取引情報</h2>
+            <div class="text-left"><a class="block mb-8 flex space-x-4 items-center border-t border-b border-gray-300 py-4" href="#"><img class="w-16 border border-gray-300" src="img/dummy/saifu.jpg">
+                <div class="flex-grow">
+                  <p>可愛いがまぐち財布</p>
+                </div>
+                <svg class="w-4" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
+                </svg></a>
+              <div class="table text-sm">
+                <div class="table-row">
+                  <div class="table-cell whitespace-nowrap font-bold pb-4 pr-12">商品代金</div>
+                  <div class="table-cell pb-4 font-bold">¥300</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell whitespace-nowrap font-bold pb-4 pr-12">送料</div>
+                  <div class="table-cell pb-4">送料込み(出品者負担)</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell whitespace-nowrap font-bold pb-4 pr-12">購入日時</div>
+                  <div class="table-cell pb-4">2022年1月20日 23:38</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell whitespace-nowrap font-bold pb-4 pr-12">商品ID</div>
+                  <div class="table-cell pb-4">m73718136779</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell whitespace-nowrap font-bold pb-4 pr-12">お届け先</div>
+                  <div class="table-cell pb-4">〒693-0000<br />島根県 出雲市 X町219-2<br />山田太郎 様</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-left w-full px-4 bg-white md:w-2/3 lg:w-2/3 ">
+            <h2 class="font-black mb-4 text-2xl">取引画面</h2>
+            <div class="bg-yellow-100 rounded-lg p-4 text-sm mb-4">
+              <p class="font-bold mb-2"> 受取評価をしてください</p>
+              <p>商品が発送されました。商品が到着したら、出品者の評価をしてください。</p>
+            </div>
+            <div class="mt-8">
+              <ul class="text-sm text-right flex flex-col space-y-2">
+                <li><a class="justify-end text-blue-500 flex flex-row space-x-2" href="#"><span>購入した後の流れ</span>
+                    <svg class="w-4" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
+                    </svg></a></li>
+                <li><a class="justify-end text-blue-500 flex flex-row space-x-2" href="#"><span>購入者のよくある質問</span>
+                    <svg class="w-4" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
+                    </svg></a></li>
+                <li><a class="justify-end text-blue-500 flex flex-row space-x-2" href="#"><span>商品が届かない場合</span>
+                    <svg class="w-4" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
+                    </svg></a></li>
+              </ul>
+            </div>
+            <div class="mt-6 mb-6">
+              <h3 class="font-black mb-2 text-xl text-gray-700">取引評価</h3>
+              <p class="text-sm font-bold mb-2">商品の受け取り</p>
+              <label class="text-base flex items-center block">
+                <label class="mr-1">
+                  <input class="mr-1" type="checkbox"><span></span>
+                </label><span>商品の中身を確認しました</span>
+              </label>
+            </div>
+            <hr class="h-px text-red-500 bg-red-500">
+            <div class="mt-6 mb-8 flex flex-row space-x-4" x-data="{evalution:'good'}">
+              <label class="cursor-pointer py-4 border border-gray-200 rounded-md flex flex-col p-3 items-center md:w-64 w-1/2" :class="evalution=='good' ? 'bg-blue-100 border border-blue-500' : 'bg-white'" @click="evalution='good'">
+                <p class="mb-1 font-bold">良かった</p>
+                <input type="radio" name="evalution" value="1" :checked="evalution=='good'">
+              </label>
+              <label class="cursor-pointer py-4 border border-gray-200 rounded-md flex flex-col p-3 items-center md:w-64 w-1/2" :class="evalution=='bad' ? 'bg-blue-100 border border-blue-500' : 'bg-white'" @click="evalution='bad'">
+                <p class="mb-1 font-bold">残念だった</p>
+                <input type="radio" name="evalution" value="2" :checked="evalution=='bad'">
+              </label>
+            </div>
+            <div>
+              <p class="mb-2 text-sm font-bold">評価のコメントを記入しましょう</p>
+              <textarea class="border border-gray-300 rounded py-2 px-3 text-grey-darker bg-gray-100 border border-gray-300 h-24 w-full mb-2" placeholder="例）このたびはお取引ありがとうございました。"></textarea>
+              <button class="text-base font-bold bg-white bg-red-500 text-white p-2 w-full block text-sm py-4 rounded-sm" value="">評価を投稿する</button>
+              <ul class="text-xs text-gray-500 mt-4">
+                <li>※このコメントは、取引完了後に評価一覧で公開されます。</li>
+                <li>※商品に問題がある場合などは、評価をせずに取引メッセージで伝えましょう。</li>
+              </ul>
+            </div>
+            <div class="mt-12">
+              <h3 class="font-black mb-8 text-xl text-gray-700">出品者情報</h3><a class="block mb-8 flex space-x-4 items-center border-t border-b border-gray-300 py-4" href="#"><img class="w-16 h-16 border border-gray-300 rounded-full" src="img/common/avator.jpg">
+                <div class="flex-grow">
+                  <p class="font-bold">tom</p>
+                </div>
+                <svg class="w-4" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
+                </svg></a>
+            </div>
+            <div>
+              <h3 class="font-black mb-6 text-xl text-gray-700">メッセージ</h3>
+              <div class="h-full flex flex-col space-y-4 mb-8">
+                <div class="flex space-x-3 items-start">
+                  <div class="flex-col flex items-center justify-center">
+                    <div class="w-10 h-10 bg-center rounded-full bg-red-500 mb-2 overflow-hidden"><img class="object-cover" src="img/product/41QMntM-txL._AC_.jpg">
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-xxs mb-1 text-gray-800 font-black">Takashi Yata</p>
+                    <div class="bg-gray-100 rounded-t-lg rounded-br-lg p-3 text-sm mb-2">
+                      <p>購入しました。よろしくお願いします。</p>
+                      <p class="text-xxs text-left text-gray-400">06/13 17:24</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex space-x-3 items-start">
+                  <div class="flex-col flex items-center justify-center">
+                    <div class="w-10 h-10 bg-center rounded-full bg-red-500 mb-2 overflow-hidden"><img class="object-cover" src="img/common/avator.jpg">
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <p class="text-xxs mb-1 text-gray-800 font-black">tom</p>
+                    <div class="bg-gray-100 rounded-t-lg rounded-br-lg p-3 text-sm mb-2">
+                      <p>このたびはご購入ありがとうございます。商品の発送まで今しばらくお待ちください。</p>
+                      <p class="text-xxs text-left text-gray-400">06/13 17:24</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-sm font-bold mb-1">取引メッセージ</h4>
+              <textarea class="border border-gray-300 rounded py-2 px-3 text-grey-darker h-24 w-full"></textarea>
+              <button class="mt-2 text-base font-bold bg-white border-2 border-red-500 text-red-500 p-2 w-full block text-sm py-4 rounded-sm" value="">取引メッセージを送る</button>
+              <ul class="text-xs text-gray-700 mt-4">
+                <li>※取引メッセージの内容は、不正やトラブル防止のため事務局で確認する場合があります。上記ボタンを押すとこれに同意したものとみなします。</li>
+                <li>※お困りの際は<a class="text-blue-500" href="#">よくある質問</a>をご確認ください</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="bg-gray-800 w-full">
+        <div class="mx-auto py-12 md:flex w-9/12">
+          <ul class="text-white flex flex-col space-y-2 mb-4 md:w-1/3">
+            <li class="font-black">URIKAIについて</li>
+            <li><a class="text-sm opacity-75 underline" href="#">会社概要</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">採用情報</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">プレスリリース</a></li>
+          </ul>
+          <ul class="text-white flex flex-col space-y-2 mb-4 md:w-1/3">
+            <li class="font-black">ヘルプと各種情報</li>
+            <li><a class="text-sm opacity-75 underline" href="#">ガイド</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">ウリカイあんしん宣言</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">お問い合わせ</a></li>
+          </ul>
+          <ul class="text-white flex flex-col space-y-2 mb-4 md:w-1/3">
+            <li class="font-black">プライバシーと利用規約</li>
+            <li><a class="text-sm opacity-75 underline" href="#">プライバシー</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">利用規約</a></li>
+            <li><a class="text-sm opacity-75 underline" href="#">特定商取引に関する表記</a></li>
+          </ul>
+        </div>
+        <div class="w-full bg-gray-900 text-center py-4 text-white">
+          <div class="flex items-center justify-center"><img class="w-6 mr-1" src="img/common/logo_white.svg"><span class="inline p-0">URIKAI</span></div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.8.1/cdn.js"></script>
+  </body>
+</html>
