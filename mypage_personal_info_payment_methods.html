@@ -72,50 +72,42 @@
           <h1 class="font-black mb-8 text-2xl">支払い方法</h1>
           <form action="" mehod="">
             <div class="text-left">
-              <div class="mb-4">
-                <button class="ml-auto flex items-center text-sm text-blue-500 hover:opacity-80"><span>編集する</span>
-                  <svg class="w-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.964 8.965">
-                    <g id="_4352" data-name=" 4352" transform="translate(-853.234 -789.186)">
-                      <g id="_4351" data-name=" 4351">
-                        <path id="_12944" data-name=" 12944" d="M861.87,790.307l-.792-.793a1.121,1.121,0,0,0-1.585,0l-4.81,4.811a4,4,0,0,0-.889,1.352l-.56,2.474,2.473-.56a13.549,13.549,0,0,0,1.352-.889l4.811-4.811A1.119,1.119,0,0,0,861.87,790.307Zm-5.205,6a5.68,5.68,0,0,1-.552.379l-1.451-1.452a5.092,5.092,0,0,1,.417-.511L858.7,791.1l1.586,1.585Z" fill="currentColor"></path>
-                      </g>
-                    </g>
-                  </svg>
-                </button>
+              <div class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
+                <div class="flex-grow">
+                  <div class="flex items-center">
+                    <input type="radio">
+                    <div class="flex items-center">
+                      <img class="h-6 flex-none flex-0 mr-4" src="img/common/payment/master.svg"></div>
+                      <p>クレジットカード<br />************4020 08/25<br />(手数料 ¥0)</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base mr-2">編集</button>
+                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base">削除</button>
+                </div>
               </div>
-              <label class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
-                <div class="flex items-center">
-                  <input type="radio">
+              <div class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
+                <div class="flex-grow">
+                  <div class="flex items-center">
+                    <input type="radio">
+                    <div class="flex items-center">
+                      <img class="h-6 flex-none flex-0 mr-4" src="img/common/payment/visa.svg"></div>
+                      <p>クレジットカード<br />************4020 08/25<br />(手数料 ¥0)</p>
+                  </div>
                 </div>
-                <p>コンビニ / ATM払い<br /> (手数料 ¥100)</p>
-              </label>
-              <label class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
                 <div class="flex items-center">
-                  <input type="radio">
+                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base mr-2 hover:bg-red-500 hover:text-white">編集</button>
+                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base">削除</button>
                 </div>
-                <div class="flex items-center"><img class="h-6 flex-none flex-0" src="img/common/payment/visa.svg"></div>
-                <p>クレジットカード<br />************4020 08/25<br />(手数料 ¥0)</p>
-              </label>
-              <label class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
-                <div class="flex items-center">
-                  <input type="radio">
-                </div>
-                <div class="flex items-center"><img class="h-6 flex-none flex-0" src="img/common/payment/master.svg"></div>
-                <p>クレジットカード<br />************2121 02/25<br />(手数料 ¥0)</p>
-              </label>
-              <div class="mb-4 text-right"><a class="flex items-center justify-end text-sm text-blue-500 hover:opacity-80" href="#"><span>支払い方法について</span>
-                  <svg class="w-5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.46967 4.21967C8.17678 4.51256 8.17678 4.98744 8.46967 5.28033L15.1893 12L8.46967 18.7197C8.17678 19.0126 8.17678 19.4874 8.46967 19.7803C8.76256 20.0732 9.23744 20.0732 9.53033 19.7803L16.7803 12.5303C17.0732 12.2374 17.0732 11.7626 16.7803 11.4697L9.53033 4.21967C9.23744 3.92678 8.76256 3.92678 8.46967 4.21967Z" fill="currentColor"></path>
-                  </svg></a></div>
-              <div>
-                <button class="flex items-center text-sm text-blue-500 hover:opacity-80">
-                  <div class="rounded-full w-4 h-4 border border-blue-500 flex items-center justify-center mr-1">＋</div><span>クレジットカードを追加</span>
-                </button>
               </div>
+              <button class="flex items-center text-sm text-blue-500 hover:opacity-80">
+                <div class="rounded-full w-4 h-4 border border-blue-500 flex items-center justify-center mr-1">+</div><span>クレ
+                  ジットカードを追加</span>
+              </button>
             </div>
             <div class="text-left mt-6">
               <div class="text-center mb-2 flex flex-col space-y-4">
-                <button class="text-base font-bold border border-red-500 text-red-500 p-2 w-full block text-sm py-4 rounded-sm" value="">更新する</button>
+                <button class="text-base font-bold bg-red-500 text-white p-2 w-full block py-4 rounded-sm" value="">更新する</button>
               </div>
             </div>
           </form>
