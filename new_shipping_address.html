@@ -69,43 +69,72 @@
       </header>
       <main class="w-11/12 flex-1 max-w-screen-xl mx-auto bg-white mt-24 pb-24 md:px-8 xl:px-0" id="contents">
         <div class="text-center w-full px-4 bg-white md:w-2/3 lg:w-1/2 mx-auto" id="input">
-          <h1 class="font-black mb-8 text-2xl">支払い方法</h1>
+          <h1 class="font-black mb-4 text-2xl">配送先住所の追加</h1>
+          <div class="text-left mb-8">
+            <div class="text-sm text-gray-600 mb-8">
+              <p>安心・安全にご利用いただくために、お客さまの本人情報の登録にご協力ください。他のお客さまに公開されることはありません。</p>
+            </div>
+          </div>
           <form action="" mehod="">
             <div class="text-left">
-              <div class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
-                <div class="flex-grow">
-                  <div class="flex items-center">
-                    <input type="radio">
-                    <div class="flex items-center">
-                      <img class="h-6 flex-none flex-0 mr-4" src="img/common/payment/master.svg"></div>
-                      <p>クレジットカード<br />************4020 08/25<br />(手数料 ¥0)</p>
-                  </div>
-                </div>
-                <div class="flex items-center">
-                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base">削除</button>
-                </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">姓（全角）
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="例）売買">
               </div>
-              <div class="border border-gray-200 mb-4 flex space-x-4 p-4 rounded-sm cursor-pointer hover:bg-gray-100 duration-200 trantision">
-                <div class="flex-grow">
-                  <div class="flex items-center">
-                    <input type="radio">
-                    <div class="flex items-center">
-                      <img class="h-6 flex-none flex-0 mr-4" src="img/common/payment/visa.svg"></div>
-                      <p>クレジットカード<br />************4020 08/25<br />(手数料 ¥0)</p>
-                  </div>
-                </div>
-                <div class="flex items-center">
-                  <button class="bg-white border-2 border-red-500 font-bold text-red-500 px-4 py-1 rounded text-base">削除</button>
-                </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">名（全角）
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="例）太郎">
               </div>
-              <button class="flex items-center text-sm text-blue-500 hover:opacity-80">
-                <div class="rounded-full w-4 h-4 border border-blue-500 flex items-center justify-center mr-1">+</div>
-                <span>クレジットカードを追加</span>
-              </button>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">姓カナ（全角）
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="例）ウリカイ">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">名カナ（全角）
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="例）タロウ">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">郵便番号
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="0201234">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">都道府県
+                </label>
+                <select class="w-full text-black p-3 undefined border border-[#CDD6DD]">
+                  <option>選択してください</option>
+                  <option>岩手県</option>
+                  <option>東京都</option>
+                </select>
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">市区町村
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="盛岡市">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">住所
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="下米内">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">建物名
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="テラスハウス">
+              </div>
+              <div class="mb-8">
+                <label class="block text-grey-500 text-sm font-bold mb-2" for="username">電話番号
+                </label>
+                <input class="appearance-none border border-gray-300 rounded py-2 px-3 text-grey-darker w-full" type="text" placeholder="09012345678">
+              </div>
             </div>
-            <div class="text-left mt-6">
+            <div>
               <div class="text-center mb-2 flex flex-col space-y-4">
-                <button class="text-base font-bold bg-red-500 text-white p-2 w-full block py-4 rounded-sm" value="">更新する</button>
+                <button class="text-base font-bold bg-red-500 text-white p-2 w-full block py-4 rounded-sm" value="">登録する</button>
               </div>
             </div>
           </form>
